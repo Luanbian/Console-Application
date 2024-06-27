@@ -1,5 +1,6 @@
 mod utils;
 mod fundamentos;
+mod types;
 
 use std::process::exit;
 use utils::terminal::show_menu;
@@ -11,7 +12,7 @@ fn main() {
       
         match selected {
             1 => fundamentos::execute(),
-            2 => println!("2"),
+            2 => types::execute(),
             3 => println!("3"),
             4 => println!("4"),
             5 => println!("5"),
